@@ -21,7 +21,7 @@ I have been recruited by upper management to work on a project to address produc
 ## T-tests on Suspension Coils
 ![T-test Results for Each Lot](/Images/TTest.png)
 
-- For the one sample t-test for all lots, we derive a p-value of 0.06 (α >= 0.05,) which compels us to fail to reject the null hypothesis.
+- For the one-sample t-test for all lots, we derive a p-value of 0.06 (α >= 0.05,) which compels us to fail to reject the null hypothesis.
 
 - The same for Lot 1, we derive a p-value of 1.00 (α >= 0.05,) which compels us to fail to reject the null hypothesis.
 
@@ -30,4 +30,12 @@ I have been recruited by upper management to work on a project to address produc
 - The same for Lot 3, we derive a p-value of 0.04 (α < 0.05,) which compels us to reject the null hypothesis.
 
 ## Study Design: MechaCar vs Competition
-The MechaCar is AutosRUs's foray into keeping up with consumer trends.  The aim of the MechaCar is to fulfill customer demands for affordability, fuel efficiency, power, reliability, and safety in a quest to keep pace with the competition.
+The MechaCar is AutosRUs's foray into keeping up with consumer trends.  The aim of the MechaCar is to fulfill consumer demands for affordability, fuel efficiency, power, reliability, and safety in a quest to keep pace with the competition.
+
+One metric that should be tested is safety rating, as ensuring the safety of heavy machinery such as vehicles should be of the highest possible priority.  Not only for reasons of good press, maximizing our safety rating, while taking into consideration the impact it would have on other metrics such as fuel efficiency, would best engender customer loyalty in how it would preserve them, as best as possible from bodily harm in the event of an accident.
+
+The null hypothesis H0 would be a safety rating less than or equal to the one achieved by the current prototype, while the alternative hypothesis HA would be a safety rating greater than one achieved by the current prototype.
+
+The one-sample t-test would suffice for this analysis, testing to see if there exists a statistical diffrerence between the sample mean and the population distribution mean.
+
+The data needed to run this statistical test currently does not exist and needs to be derived with respect to the MechaCar, but equivalent data from competitors may exist and be sourced to conduct this test.
